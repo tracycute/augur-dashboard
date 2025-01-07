@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7f6;
+  color: #333;
+  padding: 20px;
+}
+
+.home {
+  text-align: center;
+}
+
+.dashboard {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.distributor-card {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 30%;
+  box-sizing: border-box;
+}
+
+.distributor-card h2 {
+  color: #2d3b3b;
+}
+
+.chart {
+  width: 60%;
+}
+
+@media screen and (max-width: 768px) {
+  .distributor-card {
+    width: 100%;
+  }
+  .chart {
+    width: 100%;
+  }
+}
